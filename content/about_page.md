@@ -1,20 +1,14 @@
 ---
-title:  "About!"
-date:   2016-11-11 20:55:23
-categories: [jekyll]
-tags: [jekyll]
-layout: default
+title:  "About Me"
+layout: page
 ---
 
 <div style="text-align:center">
 
-<img src="{{site.baseurl}}/content/images/rockymountain_family_pic_crop.png" width="550" />
+<img src="{{site.baseurl}}/images/rockymountain_family_pic_crop.png" width="550" />
 
-<p class="excerpt">	
-<div style="text-align:center">
+</div>
 
 I'm an [Assistant Professor](https://www.bc.edu/bc-web/schools/mcas/departments/economics/people/faculty-directory/richard-l-sweeney.html) of Economics at [Boston College](http://www.bc.edu/) (also my alma mater). 
-
 I received my PhD in [Public Policy](https://www.hks.harvard.edu/educational-programs/doctoral-programs/phd-public-policy) from [Harvard Kennedy School](https://www.hks.harvard.edu/). 
-
 My main areas of research are energy and environmental policy. 

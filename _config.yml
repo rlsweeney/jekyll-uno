@@ -3,17 +3,19 @@ title: Richard L. Sweeney
 description: >
   Assistant Professor of Economics <br />
   Boston College
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno'
+url: 'https://rlsweeney.github.io/'
+baseurl: 
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Richard L. Sweeney'
+  email: sweeneri@bc.edu
+  twitter_username: richlsweeney
+  github_username:  rlsweeney
+  linkedin_username:  richard-sweeney-6b720719
+  scholar_username: "jAQHKk0AAAAJ"
+
 
 defaults:
   -

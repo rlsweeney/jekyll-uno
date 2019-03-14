@@ -20,15 +20,29 @@
 
           <nav class="cover-navigation cover-navigation--primary">
             <ul class="navigation">
+              <li class="navigation__item"><a href="{{ site.baseurl }}/content/research" title="link to {{ site.title }} about" class="blog-button">Research</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="{{ site.baseurl }}/pdfs/rlsweeney_cv.pdf" title="link to {{ site.title }} CV" class="blog-button">CV</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="{{ site.baseurl }}/content/about_page" title="link to {{ site.title }} about" class="blog-button">About</a></li>
+            </ul>
+          </nav>
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
               <li class="navigation__item"><a href="{{ site.baseurl }}/#blog" title="link to {{ site.title }} blog" class="blog-button">Blog</a></li>
             </ul>
           </nav>
-          
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="{{ site.baseurl }}/about" title="link to {{ site.title }} about" class="blog-button">About</a></li>
-            </ul>
-          </nav>
+
+          <br>
 
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
@@ -43,12 +57,12 @@
               </li>
             {% endif %}
 
-            {% if site.author.facebook_username %}
-              <!-- Facebook -->
+            {% if site.author.scholar_username %}
+              <!-- Google Scholar -->
               <li class="navigation__item">
-                <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
-                  <span class="label">Facebook</span>
+                <a href="https://scholar.google.com/citations?user={{ site.author.scholar_username }}" title="{{ site.author.scholar_username }} on Scholar" target="_blank">
+                  <i class="ai ai-google-scholar ai-me"></i>
+                  <span class="label">Scholar</span>
                 </a>
               </li>
             {% endif %}
@@ -82,14 +96,6 @@
                 </a>
               </li>
             {% endif %}
-
-            <!-- RSS -->
-            <li class="navigation__item">
-              <a href="{{ site.baseurl }}/feed.xml" title="Subscribe" target="_blank">
-                <i class="icon icon-rss"></i>
-                <span class="label">RSS</span>
-              </a>
-            </li>
 
             </ul>
           </nav>
