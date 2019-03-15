@@ -1,7 +1,8 @@
 ---
 title:  "About Me"
-layout: page
+layout: default
 ---
+<h2>{{ page.title }}</h2>
 
 <div style="text-align:center">
 
