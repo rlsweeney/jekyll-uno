@@ -1233,11 +1233,13 @@ hr {
 	margin-bottom: .2em; }
 
 .panel-cover__description {
-	margin: 0 30px; }
+	font-size: 1.2em;
+	margin: 0 10px;
+ }
 
 .panel-cover__divider {
 	width: 50%;
-	margin: 20px auto;
+	margin: 15px auto;
 	border-top: 1px solid rgba(255, 255, 255, 0.14); }
 
 .panel-cover__divider--secondary {
@@ -1278,10 +1280,10 @@ hr {
 		color: #FFF; }
 
 .cover-navigation {
-	margin-top: 10px; }
+	margin-top: 0px; }
 
 .cover-navigation--social {
-	margin-left: 30px; }
+	margin-left: 0px; }
 
 .cover-green {
 	background-color: rgba(21, 111, 120, 0.6);
@@ -1389,12 +1391,15 @@ nav {
 			opacity: 1; }
 
 .navigation--social {
-	margin-left: 1.5em; }
+	margin-left: 0.0em; }
 	.navigation--social a {
 		padding: 6px 8px 6px 9px; }
 		.navigation--social a .label {
 			display: none; }
 		.navigation--social a .icon {
+			display: block;
+			font-size: 1.7em; }
+		.navigation--social a .ai {
 			display: block;
 			font-size: 1.7em; }
 
